@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 200px;
+    padding: 20px 50px;
+    box-shadow: 1px 3px 4px gray;
+    border-radius: 5px;
+}
+input{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.pass{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
